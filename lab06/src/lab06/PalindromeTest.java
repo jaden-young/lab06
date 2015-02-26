@@ -3,7 +3,8 @@ package lab06;
 import java.util.Scanner;
 
 /**
- *
+ * Checks whether or not a string is a palindrome.
+ * Ignores all characters that are not letters
  * @author Jaden Young
  */
 public class PalindromeTest {
