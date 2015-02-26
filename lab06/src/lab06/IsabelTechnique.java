@@ -11,10 +11,10 @@ public class IsabelTechnique {
     
     static int sumValues(int[] A) {
         
-        int B[] = new int[A.length / 2];
-        
-        if(A.length == 1)
+         if(A.length == 1)
             return A[0];
+         
+        int B[] = new int[A.length / 2];
         
         for(int i = 0; i < B.length; i++)
             B[i] = A[2 * i] + A[2 * i + 1];
